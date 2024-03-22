@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>RockVinil</title>
+</head>
+<body>
+  <div class="header" id="header">
+    <button onclick="toggleSidebar()" class="btn_icon_header">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </button>
+    <div class="logo_header">
+      <h1>RockVINIL</h1>
+    </div>
+    <div class="navigation_header" id="navigation_header">
+      <button onclick="toggleSidebar()" class="btn_icon_header">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x"
+          viewBox="0 0 16 16">
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </button>
+      <a href="#" class="active">Home</a>
+      <a href="#">Sobre</a>
+      <a href="#">Catálogo</a>
+    </div>
+  </div>
+  <main>
+    <section class="catalog" id="catalog">
+      <div class="content" id="content">
+        <h1 class="titulo">Em cada sulco, a alma do rock ecoa</h1>
+        <h2 class="titulo">RockVinil - onde a música ganha vida.</h2>
+        <div class="title-wrapper-catalog">
+        </div>
+        <div class="filter-card">
+          <input type="text" class="search-input" placeholder="Escolha seu álbum favorito" />
+          <button class="search-button">Search</button>
+        </div>
+        <div class="content-wrapper">        
+          <div class="card-wrapper">
+          <div class="card-item">
+            <img src="./img/Black Sabbath – Heaven and Hell.jfif" alt="BackSabbath" />
+            <div class="card-content">
+              <h3 class="card-title">Black Sabbath – Heaven and Hell</h3>
+              <p>
+                Heaven And Hell é o nono álbum de estúdio da banda de heavy metal Black Sabbath.
+                Foi lançado em 24 de abril de 1980
+              </p>
+              <button type="button">R$ 345,99</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./img/Queen – A Night At The Opera.webp" alt="Queen" />
+            <div class="card-content">
+              <h3 class="card-title">Queen – A Night At The Opera</h3>
+              <p>
+                A Night at the Opera é o quarto álbum de estúdio da banda britânica de rock Queen.
+                Foi lançado em 21 de novembro de 1975
+              </p>
+              <button type="button">R$ 496,08</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./img/ACDC – Back in Black.jpg" alt="AcDc" />
+            <div class="card-content">
+              <h3 class="card-title">AC/DC – Back in Black</h3>
+              <p>
+                Back In Black é o sétimo álbum de estúdio da banda australiana de hard rock AC/DC.
+                Foi lançado em 25 de Julho de 1980
+              </p>
+              <button type="button">R$ 724,00</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./img/Avenged Sevenfold – The White.jpg" alt="Avenged Sevenfold" />
+            <div class="card-content">
+              <h3 class="card-title">Avenged Sevenfold – The White</h3>
+              <p>
+                The White é o quarto álbum de estúdio da banda americana de heavy metal Avenged Sevenfold.
+                Foi lançado em 30 de outubro de 2007
+              </p>
+              <button type="button">R$ 455,00</button>
+            </div>
+          </div> 
+          <div class="card-item">
+            <img src="./img/Pink Floyd – The Wall.jfif" alt="PinkFloyd" />
+            <div class="card-content">
+              <h3 class="card-title">Pink Floyd – The Wall</h3>
+              <p>
+                The Wall é o décimo primeiro álbum de estúdio da banda britânica de rock Pink Floyd.
+                foi Lançado como álbum duplo em 30 de novembro de 1979
+              </p>
+              <button type="button">R$ 292,75</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./img/Slayer – Show No Mercy.jpg" alt="Slayer" />
+            <div class="card-content">
+              <h3 class="card-title">Slayer – Show No Mercy</h3>
+              <p>
+                Show No Mercy é o álbum de estreia da banda norte-americana de thrash metal Slayer.
+                Foi lançado em 3 dezembro de 1983
+              </p>
+              <button type="button">R$ 277,90</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="./img/Nirvana – In Utero.jpg" alt="Nirvana" />
+            <div class="card-content">
+              <h3 class="card-title">Nirvana – In Utero</h3>
+              <p>
+                In Utero é o terceiro e último álbum de estúdio da banda grunge americana Nirvana.
+                Foi lançado em 13 de setembro de 1993 
+              </p>
+              <button type="button">R$ 179,90</button>
+            </div>
+          </div>   
+          <div class="card-item">
+            <img src="./img/Metallica - Black Album.jpg" alt="Metallica" />
+            <div class="card-content">
+              <h3 class="card-title">Metallica – Black Album</h3>
+              <p>
+                The Black Album ("O Álbum Negro"), é o quinto álbum de estúdio da banda norte-americana de heavy metal Metallica.
+                Foi lançado em 12 de agosto de 1991
+              </p>
+              <button type="button">R$ 399,90</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <h1>RockVINIL</h1>
+        <p>Onde a música ganha vida.</p>
+        <div id="footer_social_media">
+          <a href="#" class="footer-link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="footer-link" id="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="footer-link" id="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <h3>Menu</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Inicio</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Política de Privacidade</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3>Navegação</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Aplicativo</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Plataforma</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Explorações</a>
+        </li>
+      </ul>
+      <div id="footer_subscribe">
+        <h3>Se inscrever</h3>
+        <p>
+          Insira seu e-mail para receber notificações sobre lançamentos de novos álbuns.
+        </p>
+        <div id="input_group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="footer_copyright">
+      &#169
+      2024 all rights reserved
+    </div>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
